@@ -1,5 +1,6 @@
 
 import Button from "./Button";
+import Description from "./Description";
 function ButtonsSection() {
     return (
         <section>
@@ -10,8 +11,8 @@ function ButtonsSection() {
                 <Button />
                 <Button />
                 <Button />
-
             </div>
+            <Description />
         </section>
     )
 }
