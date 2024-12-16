@@ -1,8 +1,10 @@
-function Button() {
+function Button({ title }) {
     return (
-        <button>
 
+        <button type="button" className="btn btn-primary">
+            {title}
         </button>
+
     )
 }
 
