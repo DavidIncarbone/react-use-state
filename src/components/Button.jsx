@@ -1,7 +1,7 @@
 function Button({ title }) {
     return (
 
-        <button type="button" className="btn btn-primary">
+        <button type="button" className="btn btn-primary fs-4">
             {title}
         </button>
 
